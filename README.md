@@ -3,7 +3,7 @@ HealthcheckRails
 
 HealthcheckRails is a simple health check module for your rails application.
 
-When you use AWS (Amazon Web Service) ELB (Elastic load balancer), you need to add health check path.  
+When you use AWS (Amazon Web Service) ELB (Elastic load balancer), you need to add health check path.
 This plugin just return 200(OK) status for your load balancer to make sure your rails application is running.
 
 ## Installation
@@ -11,7 +11,7 @@ This plugin just return 200(OK) status for your load balancer to make sure your 
 Add your Gemfile...
 
 ```
-gem 'healthcheck_rails', git: 'https://github.com/seteen/healthcheck_rails'
+gem 'healthcheck_rails'
 ```
 
 And add your routes.rb...
